@@ -887,3 +887,15 @@ img{max-width:100%;display:block}
   .table-box td{padding:12px 10px;font-size:14px}
   .prize-card h2{font-size:38px}
 }
+.giveaway-deadline {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(90deg, #ffcc00, #ffb300);
+  color: #000;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  box-shadow: 0 0 15px rgba(255, 200, 0, 0.4);
+}
