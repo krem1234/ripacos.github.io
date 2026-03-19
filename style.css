@@ -899,3 +899,31 @@ img{max-width:100%;display:block}
   font-size: 14px;
   box-shadow: 0 0 15px rgba(255, 200, 0, 0.4);
 }
+.giveaway-timeline {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.timeline-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.timeline-card {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.timeline-card h3 {
+  margin-bottom: 10px;
+}
+
+.timeline-card p {
+  font-size: 18px;
+  font-weight: bold;
+}
