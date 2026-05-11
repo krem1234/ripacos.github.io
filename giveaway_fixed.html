@@ -6,7 +6,14 @@
   <title>Ripacos Giveaway - Coming Soon</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Επιπλέον styling για το fun element */
+    /* Νέο, βελτιωμένο styling για κεντράρισμα */
+    .giveaway-hero {
+      display: flex; /* Κάνουμε τον γονέα flex */
+      align-items: center; /* Κεντράρισμα κατακόρυφα */
+      justify-content: center; /* Κεντράρισμα οριζόντια */
+      min-height: 80vh; /* Δίνουμε ένα ελάχιστο ύψος για να έχει χώρο να κεντραριστεί */
+    }
+
     .maintenance-content {
       text-align: center;
       padding: 60px 20px;
@@ -18,7 +25,7 @@
     }
     .social-btn {
       display: inline-block;
-      background: #f0ad4e; /* Ή το χρώμα του brand σου */
+      background: #f0ad4e;
       color: #000;
       padding: 15px 30px;
       border-radius: 50px;
